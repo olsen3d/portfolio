@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/olsen3d/portfolio/issues"
   },
-  "homepage": "https://github.com/olsen3d/portfolio#readme"
+  "homepage": "https://github.com/olsen3d/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
