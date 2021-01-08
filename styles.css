@@ -1,0 +1,61 @@
+
+body,
+html {
+  height: 100%;
+  color: white;
+  background-color: #000000;
+  margin: 0px;
+  padding: 0;
+}
+
+.nav-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  z-index: 55;
+}
+
+.nav-wrapper>* {
+  margin: 0 10%;
+}
+
+
+.mainContainer {
+  height: 100%;
+  width: 100%;
+}
+
+
+.panel {
+  height: 100%;
+  width: 100%;
+}
+.panel.green {
+  margin-bottom: 400px
+}
+
+.blue {
+  background-color: white;
+}
+
+.turqoise {
+  background-color: turquoise;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.textFloater {
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
