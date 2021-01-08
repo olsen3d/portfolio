@@ -1,11 +1,21 @@
 @font-face {
-  font-family: 'poppins'; /*a name to be used later*/
-  src: url('./src/font/Poppins-SemiBold.ttf'); /*URL to font*/
+  font-family: 'poppins'; 
+  src: url('./src/font/Poppins-SemiBold.ttf'); 
 }
 
 @font-face {
-  font-family: 'light'; /*a name to be used later*/
-  src: url('./src/font/Roboto-Light.ttf'); /*URL to font*/
+  font-family: 'light'; 
+  src: url('./src/font/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: 'medium'; 
+  src: url('./src/font/Roboto-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: 'italic'; 
+  src: url('./src/font/Roboto-LightItalic.ttf'); 
 }
 
 .heading {
@@ -147,4 +157,28 @@ a:active {
   position: relative;
   top: 20%;
   right: 10%;
+}
+
+.imgContainer {
+  height: 800px;
+  margin: 3rem 0;
+}
+
+.imgContainerFull {
+  margin: 3rem 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.desc {
+  font-family: 'medium';
+  font-size: 0.8rem;
+}
+
+.credit {
+  font-family: 'italic';
+  font-size: 0.8rem;
 }
