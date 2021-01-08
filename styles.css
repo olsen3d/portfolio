@@ -1,12 +1,73 @@
+@font-face {
+  font-family: 'poppins'; /*a name to be used later*/
+  src: url('./src/font/Poppins-SemiBold.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'light'; /*a name to be used later*/
+  src: url('./src/font/Roboto-Light.ttf'); /*URL to font*/
+}
+
+.heading {
+  font-family: 'poppins';
+  font-size: 3em;
+  color: #333333;
+  width: 100%;
+}
+
+.headingBig {
+  font-family: 'poppins';
+  font-size: 3em;
+  color: #333333;
+  width: 100%;
+  margin: 10rem 0;
+}
+
+.body {
+  font-family: 'light';
+  font-size: 1em;
+  color: #333333;
+}
+
+.leftText {
+  text-align: left;
+}
+
+.rightText {
+  text-align: right;
+}
 
 body,
 html {
   height: 100%;
-  color: white;
-  background-color: #000000;
+  color: #333333;
+  background-color: white;
   margin: 0px;
   padding: 0;
 }
+
+a:link {
+  color: #333333;
+  text-decoration: none
+}
+a:visited {
+  color: #333333;
+  text-decoration: none
+}
+a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+a:active {
+  color: #333333;
+  text-decoration: none
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+  outline: none !important;
+} 
 
 .nav-wrapper{
   width: 100%;
@@ -15,12 +76,25 @@ html {
   justify-content: space-between;
   position: fixed;
   top: 0;
+  padding: 1rem 0;
   align-items: center;
-  z-index: 55;
+  font-size: 1.2em;
+  z-index: 100;
+  background-color: white;
 }
 
-.nav-wrapper>* {
-  margin: 0 10%;
+.navHome {
+  font-family: 'poppins';
+  margin-left: 5%;
+}
+
+.navLinks {
+  font-family: 'light';
+  margin-right: 5%;
+}
+
+.spacer {
+  height: 4rem;
 }
 
 
@@ -54,8 +128,23 @@ html {
   background-color: gray;
 }
 
-.textFloater {
+.fullPageFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 5%;
+}
+
+.floaterLeft {
   position: relative;
   top: 20%;
-  left: 20%;
+  left: 10%;
+}
+
+.floaterRight {
+  position: relative;
+  top: 20%;
+  right: 10%;
 }
