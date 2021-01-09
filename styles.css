@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  font-family: 'regular'; 
+  src: url('./src/font/Roboto-Regular.ttf'); 
+}
+
+@font-face {
   font-family: 'italic'; 
   src: url('./src/font/Roboto-LightItalic.ttf'); 
 }
@@ -25,12 +30,37 @@
   width: 100%;
 }
 
+.subHeading {
+  font-family: 'regular';
+  font-size: 1.2em;
+  color: #333333;
+  width: 100%;
+  margin-top: -0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.librariesContainer {
+  margin-bottom: 1rem;
+}
+
 .headingBig {
   font-family: 'poppins';
   font-size: 3em;
   color: #333333;
   width: 100%;
   margin: 10rem 0;
+}
+
+.libraries {
+  font-family: 'medium';
+  font-size: 0.9em;
+  color: #333333;
+}
+
+.librariesLight {
+  font-family: 'light';
+  font-size: 1em;
+  color: #333333;
 }
 
 .body {
@@ -100,7 +130,7 @@ a:active {
 
 .navCurrent {
   font-family: 'light';
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .navLinks {
@@ -118,7 +148,7 @@ a:active {
 }
 
 .spacer {
-  height: 10rem;
+  height: 5rem;
 }
 
 
@@ -158,11 +188,12 @@ a:active {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5%;
+  padding: 4rem 5% 15rem 5%;
 }
 
-.fullPageFlex>* {
-  flex: 1;
+.videoContainer {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .flexImgContainer {
@@ -198,6 +229,7 @@ a:active {
 }
 
 .imgContainerFull {
+  width: 100%;
   margin: 3rem 0;
 }
 
