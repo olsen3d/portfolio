@@ -8,8 +8,8 @@ app.use(cors())
 
 app.use(express.static(__dirname));
 
+app.get('/webdev', (req, res, next) => res.sendFile(path.join(__dirname, '/webdev.html')))
 app.get('/animations', (req, res, next) => res.sendFile(path.join(__dirname, '/animations.html')))
-
 app.get('/archviz', (req, res, next) => res.sendFile(path.join(__dirname, '/archviz.html')))
 
 app.get('/', (req, res, next) => res.sendFile(path.join(__dirname, '/index.html')))
