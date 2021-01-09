@@ -25,6 +25,6 @@ window.addEventListener('load', onVrViewLoad);
 function onVrViewLoad() {
   // Selector '#vrview' finds element with id 'vrview'.
   var vrView = new VRView.Player('#vrview', {
-    image: '../src/img/NY_750_10TH_CONFERENCE_360.jpg'
+    image: '/360'
   });
 }
