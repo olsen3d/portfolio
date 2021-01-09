@@ -219,3 +219,7 @@ img {
 .navIcon {
   height: 22px;
 }
+
+#vrview {
+  width: 100%;
+}
