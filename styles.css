@@ -88,23 +88,37 @@ a:active {
   top: 0;
   padding: 1rem 0;
   align-items: center;
-  font-size: 1.2em;
   z-index: 100;
   background-color: white;
 }
 
 .navHome {
   font-family: 'poppins';
+  font-size: 1.5em;
   margin-left: 5%;
+}
+
+.navCurrent {
+  font-family: 'light';
+  font-size: 1em;
 }
 
 .navLinks {
   font-family: 'light';
+  font-size: 1em;
   margin-right: 5%;
 }
 
+.navLinks>*:last-child {
+  margin-left: 1rem;
+}
+
+.navLinks>*:not(:last-child) {
+  margin: 1rem;
+}
+
 .spacer {
-  height: 4rem;
+  height: 10rem;
 }
 
 
@@ -144,7 +158,20 @@ a:active {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 10% 5%;
+  padding: 1rem 5%;
+}
+
+.fullPageFlex>* {
+  flex: 1;
+}
+
+.flexImgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
 }
 
 .floaterLeft {
@@ -160,7 +187,13 @@ a:active {
 }
 
 .imgContainer {
-  height: 800px;
+  /* height: 800px; */
+  width: 47%;
+  margin: 3rem 0;
+}
+
+.imgContainerHeader {
+  width: 60%;
   margin: 3rem 0;
 }
 
@@ -181,4 +214,8 @@ img {
 .credit {
   font-family: 'italic';
   font-size: 0.8rem;
+}
+
+.navIcon {
+  height: 22px;
 }
