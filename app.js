@@ -31,3 +31,12 @@ function onVrViewLoad() {
     is_stereo: false,
   });
 }
+
+setTimeout(() => {
+  AOS.init({
+    offset: 300,
+    duration: 700,
+    easing: 'ease-in-out-quart',
+    delay: 100,
+  })
+}, 100)

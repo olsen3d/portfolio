@@ -76,6 +76,10 @@
   text-align: right;
 }
 
+.spacerBottom {
+  height: 200px;
+}
+
 body,
 html {
   height: 100%;
@@ -83,6 +87,10 @@ html {
   background-color: white;
   margin: 0px;
   padding: 0;
+}
+
+body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
+  transition-duration: 4000ms;
 }
 
 a:link {
