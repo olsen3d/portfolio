@@ -29,6 +29,23 @@
   width: 100%;
 }
 
+.aboutLinks {
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.aboutLink {
+  font-family: 'poppins';
+  font-size: 1.5em;
+  color: #333333;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .subHeading {
   font-family: 'regular';
   font-size: 1.2em;
@@ -68,8 +85,17 @@
   color: #333333;
 }
 
+.navLogo {
+  height: 18px;
+  margin-right: -6px;
+}
+
 .leftText {
   text-align: left;
+}
+
+.centerText {
+  text-align: center;
 }
 
 .rightText {
@@ -156,7 +182,7 @@ a:active {
 }
 
 .spacer {
-  height: 5rem;
+  height: 3rem;
 }
 
 
@@ -271,6 +297,16 @@ img {
   align-items: center;
   justify-content: space-between;
   height: 620px;
+  padding: 5%;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
   padding: 5%;
 }
 
