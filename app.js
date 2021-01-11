@@ -11,9 +11,9 @@ function onVrViewLoad() {
 
 setTimeout(() => {
   AOS.init({
-    offset: 300,
+    offset: 200,
     duration: 700,
     easing: 'ease-in-out-quart',
     delay: 100,
   })
-}, 100)
+}, 275)
