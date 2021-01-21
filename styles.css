@@ -351,6 +351,9 @@ img {
   html {
     font-size: 0.9rem;;
   }
+  .aboutLinks {
+    height: 275px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -360,6 +363,9 @@ img {
  .projectPreviewContainer>a>img {
   max-height: 500px;
  }
+ .aboutLinks {
+  height: 250px;
+}
 }
 
 @media screen and (max-width: 850px) {
@@ -379,6 +385,10 @@ img {
   }
   .descSide * {
     text-align: center;
+  }
+  .aboutLinks {
+    margin-right: 0;
+    height: 200px;
   }
  }
 
